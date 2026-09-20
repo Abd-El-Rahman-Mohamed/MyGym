@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MyGym.Models;
 
 namespace MyGym.Data;
 
@@ -8,9 +9,10 @@ public class ApplicationDbContext : DbContext
         : base(options)
     {
     }
-    // protected override void OnModelCreating(ModelBuilder modelBuilder)
-    // {
-    //     modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
-    //     base.OnModelCreating(modelBuilder);
-    // }
+    
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+        base.OnModelCreating(modelBuilder);
+    }
 }
