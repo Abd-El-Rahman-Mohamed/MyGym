@@ -229,3 +229,4 @@ C:\Users\HP\Documents\MyGym\MyGym\MyGym\obj\Debug\net10.0\refint\MyGym.dll
 C:\Users\HP\Documents\MyGym\MyGym\MyGym\obj\Debug\net10.0\MyGym.pdb
 C:\Users\HP\Documents\MyGym\MyGym\MyGym\obj\Debug\net10.0\MyGym.genruntimeconfig.cache
 C:\Users\HP\Documents\MyGym\MyGym\MyGym\obj\Debug\net10.0\ref\MyGym.dll
+C:\Users\HP\Documents\MyGym\MyGym\MyGym\obj\Debug\net10.0\MyGym.sourcelink.json

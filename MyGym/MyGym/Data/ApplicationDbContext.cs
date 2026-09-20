@@ -10,7 +10,7 @@ public class ApplicationDbContext : DbContext
     {
     }
     
-    DbSet<Plan> Plans => Set<Plan>();
+    public DbSet<Plan> Plans => Set<Plan>();
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
