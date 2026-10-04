@@ -1,0 +1,12 @@
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\bin\Debug\net10.0\MyGym.BusinessLogic.deps.json
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\bin\Debug\net10.0\MyGym.BusinessLogic.dll
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\bin\Debug\net10.0\MyGym.BusinessLogic.pdb
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\MyGym.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\MyGym.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\MyGym.BusinessLogic.AssemblyInfo.cs
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\MyGym.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\MyGym.BusinessLogic.sourcelink.json
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\MyGym.BusinessLogic.dll
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\refint\MyGym.BusinessLogic.dll
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\MyGym.BusinessLogic.pdb
+C:\Users\HP\Documents\MyGym\MyGym\MyGym.BusinessLogic\obj\Debug\net10.0\ref\MyGym.BusinessLogic.dll

@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="MyGym/MyGym.csproj" />
+  <Project Path="MyGym.BusinessLogic/MyGym.BusinessLogic.csproj" />
+  <Project Path="MyGym.DataAccess/MyGym.DataAccess.csproj" />
+  <Project Path="MyGym.Presentation/MyGym.Presentation.csproj" />
 </Solution>
