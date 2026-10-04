@@ -1,19 +1,19 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
 using MyGym.DataAccess.Data;
 using MyGym.DataAccess.Data.Seed;
+using MyGym.DataAccess.Interceptors;
 
 var builder = WebApplication.CreateBuilder(args);
 
-if (builder.Services != null)
-{
-    builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-    });
+builder.Services.AddSingleton<AuditColumnsInterceptor>();
 
-    builder.Services.AddControllersWithViews();
-}
+builder.Services.AddDbContext<ApplicationDbContext>((sp, options) =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+    options.AddInterceptors(sp.GetRequiredService<AuditColumnsInterceptor>());
+});
+
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
