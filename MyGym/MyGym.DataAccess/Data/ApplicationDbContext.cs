@@ -11,6 +11,18 @@ public class ApplicationDbContext : DbContext
     }
     
     public DbSet<Plan> Plans => Set<Plan>();
+    
+    public DbSet<Category> Categories => Set<Category>();
+    
+    public DbSet<User> Users => Set<User>();
+    
+    public DbSet<Session> Sessions => Set<Session>();
+    
+    public DbSet<Membership> Memberships => Set<Membership>();
+    
+    public DbSet<Booking> Bookings => Set<Booking>();
+    
+    public DbSet<HealthRecord> HealthRecords => Set<HealthRecord>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
