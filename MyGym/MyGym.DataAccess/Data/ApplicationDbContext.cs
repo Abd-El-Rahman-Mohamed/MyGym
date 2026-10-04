@@ -26,6 +26,14 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<User>()
+            .HasDiscriminator<string>("UserType")
+            .HasValue<Member>("Member")
+            .HasValue<Trainer>("Trainer");
+            
+        modelBuilder.Entity<User>()
+            .HasQueryFilter(u => !u.IsDeleted);
+        
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         base.OnModelCreating(modelBuilder);
     }
